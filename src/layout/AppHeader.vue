@@ -22,7 +22,6 @@
         <router-link to="/" class="nav-link">Home</router-link>
         <router-link to="/#manfaat" class="nav-link">Manfaat</router-link>
         <router-link to="/#feedback" class="nav-link">Feedback</router-link>
-        <router-link to="/#galeri" class="nav-link">Galeri</router-link>
         <router-link to="/#testimoni" class="nav-link">Testimoni</router-link>
       </ul>
       <ul class="navbar-nav align-items-lg-center ml-lg-auto">
@@ -48,7 +47,7 @@
             title="Follow us on Instagram"
           >
             <i class="fa fa-whatsapp"></i>
-            <span class="nav-link-inner--text d-lg-none">Whatsapp</span>
+            <span class="nav-link-inner--text d-lg-none">WhatsApp</span>
           </a>
         </li>
       </ul>

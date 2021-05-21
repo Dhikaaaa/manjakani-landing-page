@@ -27,16 +27,10 @@
                   Rawat diri, rawat tubuh dan paling penting rawat juga area kewanitaan. Karena area kewanitaan yang terawat menentukan kepuasan biologis pasangan. Kini ada rekomendasi perawatan area kewanitaan terbaik dan terlaris salah
                   satunya adalah <strong>Sabun Manjakani </strong> produksi khusus untuk Miss V anda
                 </p>
-
-                <a href="https://api.whatsapp.com/send?phone=6289621873378&text=Pesan%20sabun%20Manjakani%20mumpung%20promo%20Rp.%20100.000%20dapat%203pcs" target="_blank">
-                  <base-button tag="button" href="" type="dark" class="my-5">
-                    Pesan Sekarang
-                  </base-button>
-                </a>
               </div>
               <div class="col-lg-4">
                 <div class="transform-perspective-right">
-                  <img v-lazy="'img/theme/img-jumbotron.jpg'" alt="Manjakani Soap" class="img-thumbnail mb-2" />
+                  <img v-lazy="'img/theme/img-jumbotron.jpg'" alt="Manjakani Soap" class="img-thumbnail mb-5" />
                 </div>
               </div>
             </div>
@@ -110,9 +104,13 @@
             <p class="lead text-white ">
               Harga yang semula
               <br /><span class=" display-1 text-through">Rp. 150.000</span><br />
-              kini bisa anda dapatkan seharga <br /><span class="display-1">Rp. 100.000</span><br />
-              Buruan sebelum kehabisan !!!
+              kini bisa anda dapatkan seharga <br /><span class="display-1">Rp. 100.000</span>
             </p>
+            <a href="https://api.whatsapp.com/send?phone=6289621873378&text=Pesan%20sabun%20Manjakani%20mumpung%20promo%20Rp.%20100.000%20dapat%203pcs" target="_blank">
+              <base-button tag="button" href="" type="success">
+                Pesan Sekarang
+              </base-button>
+            </a>
           </div>
         </div>
         <hr class="bg-white" />
@@ -243,14 +241,7 @@
     <section class="section bg-secondary" id="feedback">
       <div class="container">
         <div class="row row-grid align-items-center">
-          <div class="col-md-6">
-            <div class="card bg-default shadow border-0 overflow-hidden transform-perspective-left">
-              <div class="p-5">
-                <video class="embed-responsive" src="video/video.mp4" autoplay controls></video>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
+          <div class="col-md-6 order-md-2">
             <div class="pl-md-5">
               <icon name="ni ni-settings" class="mb-5" size="lg" shadow rounded></icon>
               <h3>Feedback customers</h3>
@@ -259,13 +250,20 @@
               <p>Sabun Manjakani bukan untuk Miss V saja!! Untuk badan juga bisa loo. Badan terasa segar dan harum.</p>
             </div>
           </div>
+          <div class="col-md-6 order-md-1">
+            <div class="card bg-default shadow border-0 overflow-hidden transform-perspective-left">
+              <div class="p-md-5">
+                <video class="embed-responsive" src="video/video.mp4" autoplay controls></video>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
     <!-- Akhir Testimoni -->
 
     <!-- Galeri -->
-    <section class="section section section-shaped my-0 overflow-hidden" id="galeri">
+    <!-- <section class="section section section-shaped my-0 overflow-hidden" id="galeri">
       <div class="shape shape-style-1 bg-gradient-warning shape-skew">
         <span></span>
         <span></span>
@@ -315,7 +313,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- Akhir Galeri -->
 
     <!-- Testimoni -->

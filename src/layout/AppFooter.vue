@@ -1,10 +1,10 @@
 <template>
-  <footer class="footer">
+  <footer class="footer bg-default text-white">
     <div class="container">
       <div class="row row-grid align-items-center my-md">
         <div class="col-lg-6">
-          <h3 class="text-primary font-weight-light mb-2">Terima Kasih!</h3>
-          <h4 class="mb-0 font-weight-light">Silakan Kunjungi Sosial Media Kami</h4>
+          <h3 class="text-primary text-white font-weight mb-2">Terima Kasih!</h3>
+          <h4 class="mb-0 text-white font-weight-light">Silakan Kunjungi Sosial Media Kami</h4>
         </div>
         <div class="col-lg-6 text-lg-center btn-wrapper">
           <a target="_blank" rel="noopener" href="https://www.facebook.com/vaye.beautycare/" class="btn btn-neutral btn-icon-only btn-facebook btn-round btn-lg" data-toggle="tooltip" data-original-title="Like us">
