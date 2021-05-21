@@ -17,8 +17,8 @@
 
         <div class="container shape-container d-flex">
           <div class="col px-0">
-            <div class="row">
-              <div class="col-lg-7">
+            <div class="row align-items-center">
+              <div class="col-lg-8">
                 <h1 class="display-3 text-white">
                   Miss V Manjakani Soap
                   <span>Sabun Kewanitaan Masa Kini</span>
@@ -28,15 +28,15 @@
                   satunya adalah <strong>Sabun Manjakani </strong> produksi khusus untuk Miss V anda
                 </p>
 
-                <base-button tag="button" href="#" type="dark" class="my-5">
-                  Pesan Sekarang
-                </base-button>
+                <a href="https://api.whatsapp.com/send?phone=6289621873378&text=Pesan%20sabun%20Manjakani%20mumpung%20promo%20Rp.%20100.000%20dapat%203pcs" target="_blank">
+                  <base-button tag="button" href="" type="dark" class="my-5">
+                    Pesan Sekarang
+                  </base-button>
+                </a>
               </div>
-              <div class="col-lg-5">
+              <div class="col-lg-4">
                 <div class="transform-perspective-right">
-                  <!-- <card class="border-0" type="secondary" shadow body-classes="px-lg-5 py-lg-5" header-classes="pb-5 bg-white"> -->
-                  <img v-lazy="'img/theme/img-jumbotron.jpeg'" alt="Manjakani Soap" class="img-thumbnail" />
-                  <!-- </card> -->
+                  <img v-lazy="'img/theme/img-jumbotron.jpg'" alt="Manjakani Soap" class="img-thumbnail mb-2" />
                 </div>
               </div>
             </div>
@@ -57,6 +57,7 @@
                   <icon name="ni ni-shop" type="success" rounded class="mb-4"> </icon>
                   <h6 class="text-success text-uppercase">Miss V Manjakani Soap</h6>
                   <p class="description mt-3 text-justify">Miss V Manjakani Soap merupakan sabun kewanitaan masa kini. Sabun 2 in 1 selain merawat area kewanitaan juga bisa digunakan untuk memutihkan seluruh badan.</p>
+                  <img v-lazy="'img/theme/galeri-1.jpg'" alt="galeri 1" class="img-center img-fluid" />
                 </card>
               </div>
 
@@ -68,6 +69,7 @@
                     Miss V Manjakani Soap merupakan sabun kewanitaan pertama yang mengandung bahan bahan alami seperti <strong>Buah Manjakani, Minyak Zaitun, Daun Sirih, dan Susu.</strong> 100% bahan alami dan tentunya aman untuk segala
                     kalangan baik Remaja atau Ibu Hamil & Menyusui
                   </p>
+                  <img v-lazy="'img/theme/galeri-4.jpg'" alt="galeri 2" class="img-center img-fluid" />
                 </card>
               </div>
 
@@ -78,6 +80,7 @@
                   <p class="description mt-3 text-justify">
                     Ambil sabun, basahi dengan sedikit air hingga berbusa lalu usap pada area Miss V atau bisa juga digunakan untuk seluruh badan, selanjutnya diamkan beberapa menit lalu bilas hingga bersih
                   </p>
+                  <img v-lazy="'img/theme/galeri-3.jpg'" alt="galeri 3" class="img-center img-fluid" />
                 </card>
               </div>
             </div>
@@ -87,12 +90,69 @@
     </section>
     <!-- Akhir Card Info -->
 
+    <!-- Promo -->
+    <section class="section section-shaped my-0 overflow-hidden" id="promo">
+      <div class="shape shape-style-1 bg-gradient-default shape-skew">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="container pt-lg pb-300">
+        <hr class="bg-white" />
+        <div class="row text-center justify-content-center">
+          <div class="col-lg-10">
+            <h2 class="display-3 text-white">PROMO TERBATAS</h2>
+            <h3 class="display-4 text-white">Beli 3 Hanya 100.000 Rupiah</h3>
+            <div class="col-lg-8 offset-lg-2">
+              <img v-lazy="'img/theme/galeri-7.jpg'" alt="galeri 3" class="img-fluid floating" />
+            </div>
+            <p class="lead text-white ">
+              Harga yang semula
+              <br /><span class=" display-1 text-through">Rp. 150.000</span><br />
+              kini bisa anda dapatkan seharga <br /><span class="display-1">Rp. 100.000</span><br />
+              Buruan sebelum kehabisan !!!
+            </p>
+          </div>
+        </div>
+        <hr class="bg-white" />
+        <h2 class="display-3 text-white text-center mb-5">Jangan Khawatir Belanja di Toko Kami</h2>
+        <div class="row row-grid mt-5">
+          <div class="col-lg-4">
+            <icon name="ni ni-satisfied" size="lg" gradient="white" shadow round color="primary"></icon>
+            <h5 class="text-white mt-3">Kepuasan Pelanggan</h5>
+            <p class="text-white mt-3 text-justify">
+              Kami akan memberikan pelayanan terbaik mulai dari Admin yang tersedia 24 jam. Melayani pembelian atau hanya ingin tanya seputar produk kami. Semua kami lakukan karena pelanggan merupakan <strong>Prioritas Utama</strong> bagi
+              kami. Cek langsung testimoni dan feedback yang kami terima dari pelanggan.
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <icon name="ni ni-bag-17" size="lg" gradient="white" shadow round color="primary"></icon>
+            <h5 class="text-white mt-3">100% Original Produk</h5>
+            <p class="text-white mt-3 text-justify">
+              Produk yang kami jual <strong>100% Original</strong> bukan barang tiruan ataupun reject. mengandung bahan bahan alami seperti <strong>Buah Manjakani, Minyak Zaitun, Daun Sirih, dan Susu.</strong> 100% bahan alami dan tentunya
+              aman untuk segala kalangan baik Remaja atau Ibu Hamil & Menyusui
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <icon name="ni ni-delivery-fast" size="lg" gradient="white" shadow round color="primary"></icon>
+            <h5 class="text-white mt-3">Proses Transaksi</h5>
+            <p class="text-white mt-3 text-justify">
+              Kami akan langsung mengirimkan barang setelah pemesanan dilakukan dan bukti transfer sudah dikirim. Proses pengiriman barang menggunakan layanan ekspedisi <strong>Terbaik dan Tercepat</strong>. Selain transfer kami juga
+              menerima pemesanan dengan sistem bayar ditempat atau biasa disebut COD.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Promo -->
+
     <!-- Manfaat -->
     <section class="section section-lg" id="manfaat">
       <div class="container">
         <div class="row row-grid align-items-center">
           <div class="col-md-4 order-md-2">
-            <img v-lazy="'img/theme/promo-1.jpg'" class="img-fluid floating" />
+            <img v-lazy="'img/theme/klikbait.jpg'" class="img-fluid floating" />
           </div>
           <div class="col-md-8 order-md-1">
             <div class="pr-md-5">
@@ -180,29 +240,14 @@
     <!-- Akhir Manfaat  -->
 
     <!-- Testimoni -->
-    <section class="section bg-secondary" id="testimoni">
+    <section class="section bg-secondary" id="feedback">
       <div class="container">
         <div class="row row-grid align-items-center">
           <div class="col-md-6">
             <div class="card bg-default shadow border-0 overflow-hidden transform-perspective-left">
-              <b-carousel id="carousel1" controls indicators class="py-4 px-4">
-                <!-- Text slides with image -->
-                <b-carousel-slide img-src="img/theme/testi-1.jpg"></b-carousel-slide>
-                <b-carousel-slide img-src="img/theme/testi-2.jpg"></b-carousel-slide>
-                <b-carousel-slide img-src="img/theme/testi-3.jpg"></b-carousel-slide>
-                <b-carousel-slide img-src="img/theme/testi-4.jpg"></b-carousel-slide>
-                <b-carousel-slide img-src="img/theme/testi-5.jpg"></b-carousel-slide>
-                <b-carousel-slide img-src="img/theme/testi-6.jpg"></b-carousel-slide>
-              </b-carousel>
-
-              <blockquote class="card-blockquote">
-                <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95" class="svg-bg">
-                  <polygon points="0,52 583,95 0,95" class="fill-default"></polygon>
-                  <polygon points="0,42 583,95 683,0 0,95" opacity=".2" class="fill-default"></polygon>
-                </svg>
-                <h4 class="display-3 font-weight-bold text-white">Testimoni</h4>
-                <!-- <p class="lead text-italic text-white">The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever happens.</p> -->
-              </blockquote>
+              <div class="p-5">
+                <video class="embed-responsive" src="video/video.mp4" autoplay controls></video>
+              </div>
             </div>
           </div>
           <div class="col-md-6">
@@ -249,13 +294,6 @@
               <card shadow class="shadow-lg--hover mt-4">
                 <h5 class="title text-warning text-center">Manjakani Soap</h5>
                 <div class="d-flex px-3">
-                  <img v-lazy="'img/theme/galeri-1.jpg'" alt="galeri 1" class="img-center img-fluid" />
-                </div>
-              </card>
-
-              <card shadow class="shadow-lg--hover mt-4">
-                <h5 class="title text-warning text-center">Manjakani Soap</h5>
-                <div class="d-flex px-3">
                   <img v-lazy="'img/theme/galeri-2.jpg'" alt="galeri 2" class="img-center img-fluid" />
                 </div>
               </card>
@@ -263,28 +301,14 @@
               <card shadow class="shadow-lg--hover mt-4">
                 <h5 class="title text-warning text-center">Manjakani Soap</h5>
                 <div class="d-flex px-3">
-                  <img v-lazy="'img/theme/galeri-3.jpg'" alt="galeri 3" class="img-center img-fluid" />
+                  <img v-lazy="'img/theme/galeri-5.jpg'" alt="galeri 3" class="img-center img-fluid" />
                 </div>
               </card>
 
               <card shadow class="shadow-lg--hover mt-4">
                 <h5 class="title text-warning text-center">Manjakani Soap</h5>
                 <div class="d-flex px-3">
-                  <img v-lazy="'img/theme/galeri-4.jpg'" alt="galeri 4" class="img-center img-fluid" />
-                </div>
-              </card>
-
-              <card shadow class="shadow-lg--hover mt-4">
-                <h5 class="title text-warning text-center">Manjakani Soap</h5>
-                <div class="d-flex px-3">
-                  <img v-lazy="'img/theme/galeri-5.jpg'" alt="galeri 5" class="img-center img-fluid" />
-                </div>
-              </card>
-
-              <card shadow class="shadow-lg--hover mt-4">
-                <h5 class="title text-warning text-center">Manjakani Soap</h5>
-                <div class="d-flex px-3">
-                  <img v-lazy="'img/theme/galeri-6.jpg'" alt="galeri 6" class="img-center img-fluid" />
+                  <img v-lazy="'img/theme/galeri-6.jpg'" alt="galeri 4" class="img-center img-fluid" />
                 </div>
               </card>
             </div>
@@ -294,58 +318,64 @@
     </section>
     <!-- Akhir Galeri -->
 
-    <!-- Video -->
-    <section class="section section-lg" id="video">
+    <!-- Testimoni -->
+    <section class="section section-lg" id="testimoni">
       <div class="container">
         <div class="row justify-content-center text-center mb-lg">
           <div class="col-lg-8">
-            <h2 class="display-3">Video Produk</h2>
+            <h2 class="display-3">Testimoni</h2>
           </div>
         </div>
-        <card gradient="default" no-body shadow-size="lg" class="border-0">
+        <card gradient="dark" no-body shadow-size="lg" class="border-0">
           <div class="p-5">
             <div class="row align-items-center justify-content-center">
-              <div class="col-lg-12">
-                <video class="embed-responsive" src="video/video.mp4" controls loop></video>
+              <div class="col-lg-4  mb-4">
+                <img v-lazy="'img/theme/testi-1.jpg'" alt="testi 1" class="img-center img-fluid" />
+              </div>
+              <div class="col-lg-4 mb-4">
+                <img v-lazy="'img/theme/testi-2.jpg'" alt="testi 2" class="img-center img-fluid" />
+              </div>
+              <div class="col-lg-4 mb-4">
+                <img v-lazy="'img/theme/testi-3.jpg'" alt="testi 3" class="img-center img-fluid" />
+              </div>
+            </div>
+            <div class="row align-items-center justify-content-center">
+              <div class="col-lg-6 mb-4">
+                <img v-lazy="'img/theme/testi-4.jpg'" alt="testi 4" class="img-center img-fluid" />
+              </div>
+            </div>
+            <div class="row align-items-center justify-content-center">
+              <div class="col-lg-6 mb-4">
+                <img v-lazy="'img/theme/testi-5.jpg'" alt="testi 5" class="img-center img-fluid" />
+              </div>
+              <div class="col-lg-6 mb-4">
+                <img v-lazy="'img/theme/testi-6.jpg'" alt="testi 6" class="img-center img-fluid" />
+              </div>
+            </div>
+            <div class="row align-items-center justify-content-center">
+              <div class="col-lg-8 mb-4">
+                <img v-lazy="'img/theme/testi-7.jpg'" alt="testi 7" class="img-center img-fluid" />
+              </div>
+            </div>
+            <div class="row align-items-center justify-content-center">
+              <div class="col-lg-6 mb-4">
+                <img v-lazy="'img/theme/testi-8.jpg'" alt="testi 8" class="img-center img-fluid" />
+              </div>
+              <div class="col-lg-6 mb-4">
+                <img v-lazy="'img/theme/testi-9.jpg'" alt="testi 9" class="img-center img-fluid" />
+              </div>
+            </div>
+            <div class="row align-items-center justify-content-center">
+              <div class="col-lg-8 mb-4">
+                <img v-lazy="'img/theme/testi-10.jpg'" alt="testi 10" class="img-center img-fluid" />
               </div>
             </div>
           </div>
         </card>
       </div>
     </section>
-    <!-- <section class="section section-shaped my-0 overflow-hidden">
-      <div class="shape shape-style-3 bg-gradient-default shape-skew">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <div class="container pt-lg pb-300">
-        <div class="row text-center justify-content-center">
-          <div class="col-lg-10">
-            <h2 class="display-3 text-white">Build something</h2>
-            <p class="lead text-white">According to the National Oceanic and Atmospheric Administration, Ted, Scambos, NSIDClead scentist, puts the potentially record low maximum sea ice extent tihs year down to low ice.</p>
-          </div>
-        </div>
-        <div class="row row-grid mt-5">
-          <div class="col-lg-4">
-            <icon name="ni ni-settings" size="lg" gradient="white" shadow round color="primary"></icon>
-            <h5 class="text-white mt-3">Building tools</h5>
-            <p class="text-white mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-          <div class="col-lg-4">
-            <icon name="ni ni-ruler-pencil" size="lg" gradient="white" shadow round color="primary"></icon>
-            <h5 class="text-white mt-3">Grow your market</h5>
-            <p class="text-white mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-          <div class="col-lg-4">
-            <icon name="ni ni-atom" size="lg" gradient="white" shadow round color="primary"></icon>
-            <h5 class="text-white mt-3">Launch time</h5>
-            <p class="text-white mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-        </div>
-      </div>
-    </section> -->
+    <!-- Akhir Testimoni -->
+
     <!-- <section class="section section-lg pt-lg-0 section-contact-us">
       <div class="container">
         <div class="row justify-content-center mt--300">
@@ -379,17 +409,15 @@
 ::-webkit-scrollbar {
   width: 0px; /* remove scrollbar space */
 }
+
+.text-through {
+  text-decoration: line-through;
+}
 </style>
 
 <script>
-import { BCarousel } from 'bootstrap-vue/esm/components/carousel/carousel';
-import { BCarouselSlide } from 'bootstrap-vue/esm/components/carousel/carousel-slide';
-
 export default {
   name: 'home',
-  components: {
-    BCarousel,
-    BCarouselSlide,
-  },
+  components: {},
 };
 </script>

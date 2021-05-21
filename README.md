@@ -1,24 +1,4 @@
-<h1 id="argon-design-system"><a href="https://www.creative-tim.com/product/vue-argon-design-system">Vue Argon Design System</a></h1>
-
-<p><img src="https://s3.amazonaws.com/creativetim_bucket/products/92/original/opt_argon_vue_thumbnail.jpg?1534236902" alt="Product Gif" /></p>
-
-<p>Start your development with a Design System for Bootstrap 4. It is open source, free and it features many components that can help you create amazing websites.</p>
-
-<h4 id="fully-coded-components">Fully Coded Components</h4>
-
-<p>Vue Argon Design System is built with over 100 individual components, giving you the freedom of choosing and combining. All components can take variations in colour, that you can easily modify using SASS files.</p>
-
-<p>You will save a lot of time going from prototyping to full-functional code, because all elements are implemented. This Design System is coming with prebuilt examples, so the development process is seamless, switching from our pages to the real website is very easy to be done.</p>
-
-<p>Every element has multiple states for colors, styles, hover, focus, that you can easily access and use.</p>
-
-<h4 id="complex-documentation">Complex Documentation</h4>
-
-<p>Each element is well presented in a very complex documentation. You can read more about the idea behind this design system here. You can check the components here and the foundation here.</p>
-
-<h4 id="example-pages">Example Pages</h4>
-
-<p>If you want to get inspiration or just show something directly to your clients, you can jump start your development with our pre-built example pages. You will be able to quickly set up the basic structure for your web project.</p>
+<h1 id="manjakani-soap">Manjakani Soap</h1>
 
 <h2 id="table-of-contents">Table of Contents</h2>
 

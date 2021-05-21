@@ -21,25 +21,32 @@
       <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
         <router-link to="/" class="nav-link">Home</router-link>
         <router-link to="/#manfaat" class="nav-link">Manfaat</router-link>
-        <router-link to="/#testimoni" class="nav-link">Testimoni</router-link>
+        <router-link to="/#feedback" class="nav-link">Feedback</router-link>
         <router-link to="/#galeri" class="nav-link">Galeri</router-link>
-        <router-link to="/#video" class="nav-link">Video</router-link>
+        <router-link to="/#testimoni" class="nav-link">Testimoni</router-link>
       </ul>
       <ul class="navbar-nav align-items-lg-center ml-lg-auto">
         <li class="nav-item">
-          <a class="nav-link nav-link-icon" href="#" target="_blank" rel="noopener" data-toggle="tooltip" title="Like us on Facebook">
+          <a class="nav-link nav-link-icon" href="https://www.facebook.com/vaye.beautycare/" target="_blank" rel="noopener" data-toggle="tooltip" title="Like us on Facebook">
             <i class="fa fa-facebook-square"></i>
             <span class="nav-link-inner--text d-lg-none">Facebook</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link nav-link-icon" href="#" target="_blank" rel="noopener" data-toggle="tooltip" title="Follow us on Instagram">
+          <a class="nav-link nav-link-icon" href="https://instagram.com/vay_e.beautycare.official?igshid=7rz1yr1djo9a" target="_blank" rel="noopener" data-toggle="tooltip" title="Follow us on Instagram">
             <i class="fa fa-instagram"></i>
             <span class="nav-link-inner--text d-lg-none">Instagram</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link nav-link-icon" href="#" target="_blank" rel="noopener" data-toggle="tooltip" title="Follow us on Instagram">
+          <a
+            class="nav-link nav-link-icon"
+            href="https://api.whatsapp.com/send?phone=6289621873378&text=Pesan%20sabun%20Manjakani%20mumpung%20promo%20Rp.%20100.000%20dapat%203pcs"
+            target="_blank"
+            rel="noopener"
+            data-toggle="tooltip"
+            title="Follow us on Instagram"
+          >
             <i class="fa fa-whatsapp"></i>
             <span class="nav-link-inner--text d-lg-none">Whatsapp</span>
           </a>
